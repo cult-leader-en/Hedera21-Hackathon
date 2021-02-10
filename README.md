@@ -9,7 +9,9 @@ There are two types of token transfers currently functional: atomic swap (betwee
 
 # Verification with Kabuto Explorer
 Kabuto can be used to easily see the functional token. Below are the Kabuto links to each token:
+
 Black Magic - https://explorer.kabuto.sh/testnet/id/0.0.294415
+
 Abundance Stable Coin - https://explorer.kabuto.sh/testnet/id/0.0.319690
 
 # Note
