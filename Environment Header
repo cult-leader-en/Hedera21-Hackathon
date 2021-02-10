@@ -1,0 +1,13 @@
+require("dotenv").config();
+
+const { Client, AccountId, PrivateKey, TokenCreateTransaction } = require("@hashgraph/sdk");
+
+async function main() {
+ 
+    // Configure Client
+    const operatorId = AccountId.fromString(process.env.ACCOUNT_ID);
+    const operatorKey = PrivateKey.fromString(process.env.PRIVATE_KEY);
+
+
+    const client = Client.forTestnet();
+    client.setOperator(operatorId, operatorKey);
