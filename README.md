@@ -7,5 +7,10 @@ I used all the functionality provided by HTS. The format is as follows: Token_Fu
 # Token Transfers
 There are two types of token transfers currently functional: atomic swap (between the set treasury account and Hedera account) and token transfers (from set treasury account to Hedera account). Hbar transfers for tokens is possible as well. The format is as follows: Treasurygets[Token]_ Accountgets[Token]. For example, TreasurygetsHBAR_AccountgetsABD represents an swap where treasury account loses ABD and gains HBAR while the Hedera account loses HBAR and gains ABD.
 
+# Verification with Kabuto Explorer
+Kabuto can be used to easily see the functional token. Below are the Kabuto links to each token:
+Black Magic - https://explorer.kabuto.sh/testnet/id/0.0.294415
+Abundance Stable Coin - https://explorer.kabuto.sh/testnet/id/0.0.319690
+
 # Note
 The ABD and BM tokens have been created. There are templates included if the judges would like to run the code themselves.
